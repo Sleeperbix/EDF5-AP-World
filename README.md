@@ -15,7 +15,7 @@ Version 0.1.0.
 ## Setup
 
 - Download the latest version of Archipelago (https://github.com/ArchipelagoMW/Archipelago/releases).
-- Install edf5.apworld (either by double-clicking the APWorld file, or through the Archipelago Launcher).
+- Install edf5.apworld (either by double-clicking the APWorld file, or through the Archipelago Launcher). The latest version can be found here (https://github.com/Sleeperbix/EDF5-AP-World/releases)
 - Generate a YAML file through the Options Creator in the Archipelago Launcher, or open Generate Template Options also within the Archipelago Launcher (and edit that template in an editor of your choice).
 - Provide the generated YAML file to whoever is generating your APWorld, or save it inside the players folder.
 - If you are generating the world, press Generate in the Archipelago Launcher (with your YAML file in the players folder).
