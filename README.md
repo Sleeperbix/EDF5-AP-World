@@ -72,10 +72,10 @@ I haven’t noticed any major issues as a result of this from testing, but I fin
 
 ## Known Issues
 
-    - Certain missions as Air Raider might be difficult, as the logic doesn’t currently give you 'required' items to beat specific missions (e.g. a weapon/vehicle to shoot Teleportation Ships from underneath, weapons that are suitable for underground missions).
-    - Fencer can currently receive weapons that require Air Raider’s targeting tools as randomised items. I will remove these by default in an update in the future, but give the option to re-enable them for players using mods that remove the targeting tool requirement (e.g. Class Addons - Fencer No Beacon Addon).
-    - If you close the EDF5 Client and then open another save file, the game will likely crash on opening the mission menu. The game will return to normal after restarting though.
-    - If you try to go into Mission Pack 1 or 2 on your EDF5-AP save and open the mission menu, the game will crash (if the client is open). Although this is expected as Mission Packs 1 and 2 aren’t supported.
+- Certain missions as Air Raider might be difficult, as the logic doesn’t currently give you 'required' items to beat specific missions (e.g. a weapon/vehicle to shoot Teleportation Ships from underneath, weapons that are suitable for underground missions).
+- Fencer can currently receive weapons that require Air Raider’s targeting tools as randomised items. I will remove these by default in an update in the future, but give the option to re-enable them for players using mods that remove the targeting tool requirement (e.g. Class Addons - Fencer No Beacon Addon).
+- If you close the EDF5 Client and then open another save file, the game will likely crash on opening the mission menu. The game will return to normal after restarting though.
+- If you try to go into Mission Pack 1 or 2 on your EDF5-AP save and open the mission menu, the game will crash (if the client is open). Although this is expected as Mission Packs 1 and 2 aren’t supported.
 
 ## Future Plans
 
