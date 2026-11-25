@@ -98,10 +98,10 @@ I used AI assistance primarily for parts of the client implementation, and for s
 
 ## Credits
 
-Idlehands88 – Author of the Cheat Engine Table I used to find memory addresses for various things
-EDF5 Japanese Wiki – Mission and weapon information
-NewSoupVi - AP Quest developer (the base I used to get started)
-The Archipelago Team and community – For creating and maintaining Archipelago!
+- Idlehands88 – Author of the Cheat Engine Table I used to find memory addresses for various things
+- EDF5 Japanese Wiki – Mission and weapon information
+- NewSoupVi - AP Quest developer (the base I used to get started)
+- The Archipelago Team and community – For creating and maintaining Archipelago!
 
 ## Disclaimer
 
