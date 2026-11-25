@@ -5,30 +5,30 @@ Version 0.1.0.
 
 ## Requirements
 
-    - Windows (Linux is not currently supported)
-    - An installation of EDF5 (Steam)
-    - The latest version of Archipelago
-    - The EDF5 APWorld file
-    - A spare save slot in EDF5 (preferably not slot 4)
-    - An existing save file that has unlocked Hardest and Inferno **(if you want to play with Hardest and Inferno checks)**
+- Windows (Linux is not currently supported)
+- An installation of EDF5 (Steam)
+- The latest version of Archipelago
+- The EDF5 APWorld file
+- A spare save slot in EDF5 (preferably not slot 4)
+- An existing save file that has unlocked Hardest and Inferno **(if you want to play with Hardest and Inferno checks)**
 
 ## Setup
 
-    - Download the latest version of Archipelago (https://github.com/ArchipelagoMW/Archipelago/releases).
-    - Install edf5.apworld (either by double-clicking the APWorld file, or through the Archipelago Launcher).
-    - Generate a YAML file through the Options Creator in the Archipelago Launcher, or open Generate Template Options also within the Archipelago Launcher (and edit that template in an editor of your choice).
-    - Provide the generated YAML file to whoever is generating your APWorld, or save it inside the players folder.
-    - If you are generating the world, press Generate in the Archipelago Launcher (with your YAML file in the players folder).
-    - Either press Host in the Archipelago Launcher and select the generated game (zipped folder) in outputs if you want to host the game locally, or upload the generated game to Archipelago’s website.
+- Download the latest version of Archipelago (https://github.com/ArchipelagoMW/Archipelago/releases).
+- Install edf5.apworld (either by double-clicking the APWorld file, or through the Archipelago Launcher).
+- Generate a YAML file through the Options Creator in the Archipelago Launcher, or open Generate Template Options also within the Archipelago Launcher (and edit that template in an editor of your choice).
+- Provide the generated YAML file to whoever is generating your APWorld, or save it inside the players folder.
+- If you are generating the world, press Generate in the Archipelago Launcher (with your YAML file in the players folder).
+- Either press Host in the Archipelago Launcher and select the generated game (zipped folder) in outputs if you want to host the game locally, or upload the generated game to Archipelago’s website.
 
 ## Joining and playing a game
 
-    - Launch EDF5, create a new save and name it EDF5-AP. The name must be EDF5-AP for the client to work, and preferably not in slot 4.
-    - Select Offline Mission Mode, then Offline Mission Mode again (do not select Online, 2 Player Split-Screen or any of the DLCs)
-    - Launch the EDF5 Client from the Archipelago Launcher. It will say “Found EDF5!” if it has found EDF5. It will also say “Lost connection to EDF5!” if it loses connection to EDF5.
-    - Connect to the host with the server address (use localhost if you are hosting locally), the player name you set in the YAML file, and the server password if one is set.
-    - The game should now be ready to play. To confirm everything is working, select Start Mission, and you should see every mission up to Mission 110 is titled “???”, apart from the missions you set in your options file to start with.
-    - If you want to switch save files at any point, return to the menu while the EDF5 Client is still running. If you have already closed the client, restart the game before opening another save file.
+- Launch EDF5, create a new save and name it EDF5-AP. The name must be EDF5-AP for the client to work, and preferably not in slot 4.
+- Select Offline Mission Mode, then Offline Mission Mode again (do not select Online, 2 Player Split-Screen or any of the DLCs)
+- Launch the EDF5 Client from the Archipelago Launcher. It will say “Found EDF5!” if it has found EDF5. It will also say “Lost connection to EDF5!” if it loses connection to EDF5.
+- Connect to the host with the server address (use localhost if you are hosting locally), the player name you set in the YAML file, and the server password if one is set.
+- The game should now be ready to play. To confirm everything is working, select Start Mission, and you should see every mission up to Mission 110 is titled “???”, apart from the missions you set in your options file to start with.
+- If you want to switch save files at any point, return to the menu while the EDF5 Client is still running. If you have already closed the client, restart the game before opening another save file.
 
 ## What gets randomised?
 
@@ -42,14 +42,14 @@ Armor boosts aren’t directly applied, and instead just increase your maximum a
 Checks are awarded for completing missions on each difficulty that you set in your YAML file, as each class you set in your YAML file, as well as for clearing each mission on any difficulty and any class.
 
 So to summarise:
-    - One general completion check.
-    - One check for each enabled difficulty and selected class.
+- One general completion check.
+- One check for each enabled difficulty and selected class.
 
-The formula, if you will, is **110 + ((110 x D) x C)**, with D being difficulties and C being classes.
+The amount of checks depends on what difficulties and classes you have selected. The formula, if you will, is **110 + ((110 x D) x C)**, with D being difficulties and C being classes.
 For example:
-    - Playing as Ranger and Air Raider with Hardest difficulty: 110 + ((110 x 4) x 2) = 990 checks.
-    - Playing as Fencer with Hard difficulty: 110 + ((110 x 3) x 1) = 440 checks.
-    - Playing as Ranger, Wing Diver, Air Raider and Fencer, with Inferno difficulty: 110 + ((110 x 5) x 4) = 2310 checks.
+- Playing as Ranger and Air Raider with Hardest difficulty: 110 + ((110 x 4) x 2) = 990 checks.
+- Playing as Fencer with Hard difficulty: 110 + ((110 x 3) x 1) = 440 checks.
+- Playing as Ranger, Wing Diver, Air Raider and Fencer, with Inferno difficulty: 110 + ((110 x 5) x 4) = 2310 checks.
 
 **I would recommend not selecting all four classes and all difficulties (unless your host knows you are doing this), as this will very likely be a LONG game.**
 
@@ -81,16 +81,16 @@ I haven’t noticed any major issues as a result of this from testing, but I fin
 
 I intend to add a number of features to this AP implementation in the future, such as:
 
-    - Checks for killing quantities of enemies (e.g. 100 Ants, 1,000 Bees, 2,500 Spiders etc.)
-    - Quicker missions (likely modding each mission to reduce the amount of time waiting for dialogue to finish, if possible)
-    - Additional mission/weapon logic (Air Raider and Fencer need some attention for certain weapons and missions)
-    - Add an option to remove underground missions from the item pool (mostly for Air Raider players who really love air strikes)
-    - An option to remove armor and weapon drops (or ignore them)
-    - Progressive weapons (as opposed to specific weapons as items)
-    - Classes as items (for games with more than one class enabled, you have to unlock them)
-    - Other victory conditions (e.g. collecting X ‘EDF Emblems’ to win)
-    - Deathlink
-    - Traps and other useful items (e.g. fully restore armor in mission)
+- Checks for killing quantities of enemies (e.g. 100 Ants, 1,000 Bees, 2,500 Spiders etc.)
+- Quicker missions (likely modding each mission to reduce the amount of time waiting for dialogue to finish, if possible)
+- Additional mission/weapon logic (Air Raider and Fencer need some attention for certain weapons and missions)
+- Add an option to remove underground missions from the item pool (mostly for Air Raider players who really love air strikes)
+- An option to remove armor and weapon drops (or ignore them)
+- Progressive weapons (as opposed to specific weapons as items)
+- Classes as items (for games with more than one class enabled, you have to unlock them)
+- Other victory conditions (e.g. collecting X ‘EDF Emblems’ to win)
+- Deathlink
+- Traps and other useful items (e.g. fully restore armor in mission)
 
 ## AI Disclosure
 
